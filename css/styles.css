@@ -1,60 +1,59 @@
-*{ margin:0 auto;
+* {
+  margin: 0 auto;
   margin: 0;
   padding: 0;
   max-width: 100%;
   box-sizing: border-box;
 }
- 
 
-
-/* menu navegacion y logo*/
-.header{
-  
+.header {
   width: 100%;
-  height: 120px;   
+  height: 120px;
   float: right;
-  box-shadow: 0 0 10px 1px  rgb(240, 235, 235);
+  box-shadow: 0 0 10px 1px rgb(240, 235, 235);
   border-bottom: 4px solid grey;
   background-color: #000000;
   position: fixed;
 }
-
-.header__img-logo{
+.header .header__logo {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin:10px;
+  margin: 10px;
   float: left;
-
 }
-.header__lista{
+.header ul {
   margin: auto;
   height: 110px;
-  
 }
-.header__lista li{
+.header li {
   float: left;
   line-height: 120px;
-  margin-left: 100px;
+  margin-left: 130px;
   list-style: none;
 }
-.header__lista a{
+.header a {
   text-decoration: none;
   color: grey;
   font-size: 1.2em;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-.header__lista a:hover{
-  color: white;
+.header a:hover {
+  color: yellow;
 }
 
-.caja{background-color: #000000;
+.caja {
+  background-color: #000000;
   padding-top: 100px;
-  display:flex;
+  display: flex;
   flex-direction: column;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  text-align: justify;
 }
-.caja_titulo{
+.caja .caja_titulo {
   background-image: url(/asset/image\ _nir.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,212 +64,56 @@
   font-size: 50px;
   margin-top: 20px;
 }
-
-.caja_texto{
-  background-color: #000000;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1rem;
-  text-align: justify;
-  color: rgb(255, 255, 255);
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
+.caja div {
+  padding: 5px;
 }
-.caja_texto b{
+.caja b {
   color: yellow;
 }
-.redes_sociales{background-color: black;
+
+.redes_sociales {
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 15px;
 }
-
-.caja1_redes li{
+.redes_sociales li {
   float: left;
   padding-left: 30px;
   list-style: none;
 }
-.caja1_redes a{
+.redes_sociales a {
   text-decoration: none;
   color: yellow;
-  
 }
-.caja1_redes a:hover{
+.redes_sociales a:hover {
   transform: scale(1.2);
-  color: rgb(231, 15, 15);
+  color: rgb(237, 231, 231);
 }
-
-
-.caja1_redes img{
+.redes_sociales img {
   height: 25px;
   width: 25px;
-  
-}
-.caja1_redes img:hover{
-transform: scale(1.2);
+  border-radius: 90%;
 }
 
-/* integrantes*/
-.galeria_titulo2{
-  padding-left: 600px;
-}
-.galeria_imagenes{
-  float: left;
-  padding-left: 250px;
-}
-.galeria_contenedor-imagenes3{
+#galeria {
   max-width: 100%;
+  background-color: orange;
 }
-.imagen_top{
-  width: 370px;
-  height: 400px;
-  padding-left: 100px;
-}
-.imagen_top01{
-  width: 370px;
-  height: 400px;
-}
-.imagen_top02{
-  height: 400px;
-  width: 370px;
-}
-
-
-.galeria_imagenes01{
-width: 370px;
-margin-left: 100px;
-}
-.galeria_imagenes02{
-width: 370px;
-margin-left: 475px;
-margin-top: -215px;
-
-
-}
-.galeria_imagenes03{
-  width: 370px;
-  margin-left: 850px;
-  margin-top: -145px;
-
-}
-.caja2_redes{
-  margin-bottom: 140px;
-  margin-left: 120px;
-  width: 600px;
-  
-}
-.caja2_redes li{
-  float: left;
-  width: 120px;
-  list-style: none;
-}
-.caja2_redes img{
-  width: 20px;
-  height: 20px;
-}
-.caja2_redes a{
-  text-decoration: none;
-} 
-
-/* galeria imagenes */
-#galeria  .col-lg-4{
+#galeria .col-lg-4 {
   margin: 0;
   padding: 25px;
-  
+  max-width: 100%;
 }
-
-#galeria img{
+#galeria .col-lg-4 img {
   width: 100%;
   height: 300px;
   width: 300px;
   margin-top: 110px;
-  
 }
-#galeria img:hover{
+#galeria .col-lg-4 img:hover {
   border-radius: 100%;
-  border: 3px solid yellow;
-  
+  border: 5px solid rgb(104, 104, 102);
 }
 
-.caja3_redes{
-  width: 400px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.caja3_redes li{
-  width: 100px;
-  height: 20px;
-  float: left;
-  list-style: none;
-  
-}
-.caja3_redes img{
-  width: 20px;
-  height: 20px;
-  margin-left: 2%;    
-}
-.caja3_redes a{
-  text-decoration: none;
-  color: black;
-}
-
-/* Albunes De Estudio*/
-
-.albunes h2{
-  padding-left: 500px;
-}
-.albunes img{
-  width: 500px;
-  height: 400px;
-  padding-left: 400px;
-}
-.albunes p{
-  font-size: medium;
-  font-style: oblique;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-}
-
-/*Historia*/
-
-.text h2{
-padding-left: 600px;
-}
-.text_1 img{
-  padding-left: 400px;
-  width: 600px;
-  height: 400px;
-  
-}
-.text h3{
-  padding-left: 500px;
-}
-/*media querys*/
-@media (max-width:320px) {
-.header{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 250px;
-  line-height: 250px;
-}
-.header .header__lista {
-  height: 400px;
-  
-}
-.header__lista li{
-margin: 30px;
-height: 1px;
-
-}
-.header__lista li a{
-font-size: 14px;
-
-}
-.redes_sociales{
-display: flex;
-flex-direction: column;
-}
-.redes_sociales .caja1_redes li a{
-font-size: 20px;
-}
-}
+/*# sourceMappingURL=styles.css.map */

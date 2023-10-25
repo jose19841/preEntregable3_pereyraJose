@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    height: 120px;   
+    float: right;
+    box-shadow: 0 0 10px 1px  rgb(240, 235, 235);
+    border-bottom: 4px solid grey;
+    background-color: #000000;
+    position: fixed;
+    .header__logo {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        float: left;
+      }
+    ul {
+        margin: auto;
+        height: 110px;
+      }
+      li {
+        float: left;
+        line-height: 120px;
+        margin-left: 130px;
+        list-style: none;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    &:hover{
+        color: yellow;
+    }
+  }
+}

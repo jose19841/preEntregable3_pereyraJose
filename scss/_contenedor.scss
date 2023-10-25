@@ -1,0 +1,26 @@
+.caja{background-color: #000000;
+    padding-top: 100px;
+    display:flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+.caja_titulo{
+    background-image: url(/asset/image\ _nir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+    padding-left: 400px;
+    color: yellow;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  div{
+    padding: 5px;
+  }
+  b{
+    color: yellow;
+  }
+  }
