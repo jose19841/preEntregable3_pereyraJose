@@ -1,0 +1,74 @@
+//integrantes//
+
+h2{
+    padding-top: 150px;
+    text-align: center;
+    display: block;
+    color: rgb(178, 228, 11);
+   
+}
+div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    
+    p{
+      color: rgb(11, 1, 1);
+    }
+}
+
+        
+.galeria_contenedor-imagenes3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    img{
+   
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    
+        
+    }
+}
+.galeria_contenedor-imagenes4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+p{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+    
+.galeria_imagenes01{
+        width: 350px;
+        margin-right: 40px;
+    }
+.galeria_imagenes02{
+    width: 350px;
+    margin-right: 40px;
+    
+}
+.galeria_imagenes03{
+width: 350px;
+
+}
+}
+footer{
+    display: flex;
+
+    a{
+    
+    margin: 10px;
+        
+    }
+    img{
+    position:absolute;
+    
+    }
+}
+

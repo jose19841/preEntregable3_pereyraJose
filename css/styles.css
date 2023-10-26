@@ -68,6 +68,7 @@
   padding: 5px;
 }
 .caja b {
+  padding-right: 350px;
   color: yellow;
 }
 
@@ -81,6 +82,7 @@
   float: left;
   padding-left: 30px;
   list-style: none;
+  margin-right: 50px;
 }
 .redes_sociales a {
   text-decoration: none;
@@ -114,6 +116,94 @@
 #galeria .col-lg-4 img:hover {
   border-radius: 100%;
   border: 5px solid rgb(104, 104, 102);
+}
+
+h2 {
+  padding-top: 150px;
+  text-align: center;
+  display: block;
+  color: rgb(178, 228, 11);
+}
+
+div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+div p {
+  color: rgb(11, 1, 1);
+}
+
+.galeria_contenedor-imagenes3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galeria_contenedor-imagenes3 img {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+}
+
+.galeria_contenedor-imagenes4 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.galeria_contenedor-imagenes4 p {
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+}
+.galeria_contenedor-imagenes4 .galeria_imagenes01 {
+  width: 350px;
+  margin-right: 40px;
+}
+.galeria_contenedor-imagenes4 .galeria_imagenes02 {
+  width: 350px;
+  margin-right: 40px;
+}
+.galeria_contenedor-imagenes4 .galeria_imagenes03 {
+  width: 350px;
+}
+
+footer {
+  display: flex;
+}
+footer a {
+  margin: 10px;
+}
+footer img {
+  position: absolute;
+}
+
+.albunes {
+  background-color: grey;
+}
+.albunes .card {
+  background-color: black;
+  position: static;
+  margin-left: 300px;
+  border: 5px solid yellow;
+}
+.albunes .card .card-text {
+  color: white;
+  text-align: justify;
+}
+
+.text_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text_1 img {
+  width: 800px;
+}
+.text_1 p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=styles.css.map */

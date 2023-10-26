@@ -1,16 +1,28 @@
 //importamos el header a la raiz//
-@import 'reset';
+@import 'base/reset';
 
 //importamos el reset//
 
-@import 'header';
+@import 'layout/header';
 
 //importamos el contenedor
-@import 'contenedor';
+@import 'layout/contenedor';
 
 // importamos las redes sociales//
-@import 'redes-sociales';
+@import 'layout/redes-sociales';
 
 //importamos galeria de imagenes de la pagina (fotos)//
 
-@import 'galeria';
+@import 'layout/galeria';
+
+// importamos los elementos de la pagina integrantes//
+
+@import 'layout/banda';
+
+// importamos cards de la pagina albunes//
+
+@import 'layout/albunes';
+
+// importamos contenido de la pagina de Historia//
+
+@import 'layout/historia';

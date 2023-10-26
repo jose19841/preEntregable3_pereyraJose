@@ -1,0 +1,117 @@
+* {
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    height: 120px;
+    float: right;
+    box-shadow: 0 0 10px 1px rgb(240, 235, 235);
+    border-bottom: 4px solid grey;
+    background-color: #000000;
+    position: fixed;
+  }
+  .header .header__logo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    float: left;
+  }
+  .header ul {
+    margin: auto;
+    height: 110px;
+  }
+  .header li {
+    float: left;
+    line-height: 120px;
+    margin-left: 130px;
+    list-style: none;
+  }
+  .header a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .header a:hover {
+    color: yellow;
+  }
+  
+  .caja {
+    background-color: #000000;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .caja .caja_titulo {
+    background-image: url(/asset/image\ _nir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+    padding-left: 400px;
+    color: yellow;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .caja div {
+    padding: 5px;
+  }
+  .caja b {
+    color: yellow;
+  }
+  
+  .redes_sociales {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+  }
+  .redes_sociales li {
+    float: left;
+    padding-left: 30px;
+    list-style: none;
+  }
+  .redes_sociales a {
+    text-decoration: none;
+    color: yellow;
+  }
+  .redes_sociales a:hover {
+    transform: scale(1.2);
+    color: rgb(237, 231, 231);
+  }
+  .redes_sociales img {
+    height: 25px;
+    width: 25px;
+    border-radius: 90%;
+  }
+  
+  #galeria {
+    max-width: 100%;
+    background-color: orange;
+  }
+  #galeria .col-lg-4 {
+    margin: 0;
+    padding: 25px;
+    max-width: 100%;
+  }
+  #galeria .col-lg-4 img {
+    width: 100%;
+    height: 300px;
+    width: 300px;
+    margin-top: 110px;
+  }
+  #galeria .col-lg-4 img:hover {
+    border-radius: 100%;
+    border: 5px solid rgb(104, 104, 102);
+  }
