@@ -26,3 +26,13 @@
 // importamos contenido de la pagina de Historia//
 
 @import 'layout/historia';
+
+//importamos utilities//
+
+@import 'utilities/variables';
+
+//importamos mixins//
+@import 'utilities/mixin';
+
+//importamos media-Querys
+@import 'base/media-querys';

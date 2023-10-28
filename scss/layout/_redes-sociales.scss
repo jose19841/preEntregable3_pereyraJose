@@ -1,3 +1,5 @@
+@import '../utilities/variables';
+
 .redes_sociales{
     background-color: black;
     display: flex;
@@ -12,7 +14,7 @@
     }
     a{
         text-decoration: none;
-    color: yellow;
+    color: $color-yellow;
     &:hover{
         transform: scale(1.2);
         color: rgb(237, 231, 231);
