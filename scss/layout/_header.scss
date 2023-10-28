@@ -1,5 +1,9 @@
 @import '../utilities/variables';
 @import '../base/media-querys';
+@mixin sizes ($margin,$height){
+  margin: $margin;
+  height: $height;
+}
 .header{
     width: 100%;
     height: 120px;   
@@ -17,8 +21,8 @@
         
       }
     ul {
-        margin: auto;
-        height: 110px;
+      @include sizes(auto,110px );
+        
       }
       li {
         float: left;
