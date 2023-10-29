@@ -12,9 +12,10 @@
     height: 300px;
     width: 300px;
     margin-top: 110px;
+    transition: 2s;
     &:hover{
         border-radius: 100%;
-        border: 5px solid rgb(104, 104, 102);
+        -webkit-box-shadow: 4px 4px 4px 5px #ecefec94;
     }
     }
 }

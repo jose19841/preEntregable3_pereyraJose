@@ -103,7 +103,7 @@
 }
 .header {
   width: 100%;
-  height: 120px;
+  height: 105px;
   float: right;
   box-shadow: 0 0 10px 1px rgb(240, 235, 235);
   border-bottom: 4px solid grey;
@@ -114,7 +114,6 @@
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin: 10px;
   float: left;
 }
 .header ul {
@@ -129,13 +128,15 @@
 }
 .header a {
   text-decoration: none;
-  color: grey;
+  color: rgb(244, 239, 239);
   font-size: 1.2em;
   font-weight: bold;
   font-family: "Nosifer", sans-serif;
+  transition: 2s;
 }
 .header a:hover {
   color: yellow;
+  font-size: 15px;
 }
 
 .caja {
@@ -154,10 +155,10 @@
   background-size: cover;
   max-width: 100%;
   height: 700px;
-  padding-left: 400px;
+  padding-left: 500px;
   color: yellow;
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .caja div {
   padding: 5px;
@@ -182,10 +183,12 @@
 .redes_sociales a {
   text-decoration: none;
   color: yellow;
+  transition: 2s;
 }
 .redes_sociales a:hover {
   transform: scale(1.2);
   color: rgb(237, 231, 231);
+  font-size: 10px;
 }
 .redes_sociales img {
   height: 25px;
@@ -207,10 +210,11 @@
   height: 300px;
   width: 300px;
   margin-top: 110px;
+  transition: 2s;
 }
 #galeria .col-lg-4 img:hover {
   border-radius: 100%;
-  border: 5px solid rgb(104, 104, 102);
+  -webkit-box-shadow: 4px 4px 4px 5px rgba(236, 239, 236, 0.5803921569);
 }
 
 h2 {
@@ -229,6 +233,11 @@ div {
 }
 div p {
   color: rgb(11, 1, 1);
+  transition: 2s;
+}
+div p:hover {
+  font-size: 16px;
+  color: white;
 }
 
 .galeria_contenedor-imagenes3 {
@@ -240,6 +249,11 @@ div p {
   width: 350px;
   height: 350px;
   margin: 20px;
+  transition: 3s;
+}
+.galeria_contenedor-imagenes3 img:hover {
+  border-radius: 20%;
+  -webkit-box-shadow: 4px 4px 4px 5px rgba(129, 245, 111, 0.5803921569);
 }
 
 .galeria_contenedor-imagenes4 {
@@ -251,12 +265,12 @@ div p {
   font-size: 1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: justify;
+  transition: 2s;
 }
-.galeria_contenedor-imagenes4 .galeria_imagenes01 {
-  width: 350px;
-  margin-right: 40px;
+.galeria_contenedor-imagenes4 p:hover {
+  color: yellow;
 }
-.galeria_contenedor-imagenes4 .galeria_imagenes02 {
+.galeria_contenedor-imagenes4 .galeria_imagenes01, .galeria_contenedor-imagenes4 .galeria_imagenes02, .galeria_contenedor-imagenes4 .galeria_contenedor-imagenes3 img:hover, .galeria_contenedor-imagenes3 .galeria_contenedor-imagenes4 img:hover {
   width: 350px;
   margin-right: 40px;
 }
@@ -277,6 +291,9 @@ footer img {
 .albunes {
   background-color: grey;
 }
+.albunes h2 {
+  color: white;
+}
 .albunes .card {
   background-color: black;
   position: static;
@@ -296,9 +313,17 @@ footer img {
 }
 .text_1 img {
   width: 800px;
+  border-radius: 2%;
+  transition: 1s;
+}
+.text_1 img:hover {
+  width: 600px;
+  height: 600px;
 }
 .text_1 p {
   text-align: justify;
+  font-weight: 50px;
+  color: #09090a;
 }
 
 @media screen and (max-width: 320px) {
@@ -395,6 +420,33 @@ footer img {
   .redes_sociales ul li {
     margin: 0;
   }
+}
+.header {
+  background-image: linear-gradient(90deg, rgb(18, 8, 0) 0%, rgba(42, 40, 2, 0.516) 4%, rgb(0, 212, 255) 100%);
+}
+
+.caja {
+  background-image: linear-gradient(90deg, rgb(228, 112, 16) 0%, rgba(121, 114, 9, 0.5158438375) 23%, rgb(108, 113, 113) 100%);
+}
+
+.redes_sociales {
+  background-image: linear-gradient(90deg, rgb(196, 92, 7) 0%, rgba(229, 215, 12, 0.516) 4%, rgb(0, 212, 255) 100%);
+}
+
+.galeria {
+  background-image: radial-gradient(circle, #e47010, #797209, #6c7171);
+}
+
+#galeria {
+  background-image: linear-gradient(90deg, rgb(228, 16, 63) 0%, rgba(121, 114, 9, 0.8323704482) 78%, rgb(108, 113, 113) 100%);
+}
+
+.albunes {
+  background-image: radial-gradient(circle, #191918, #18edc7, #060606);
+}
+
+.text {
+  background-image: linear-gradient(90deg, rgb(190, 190, 174) 0%, rgba(88, 108, 105, 0.8323704482) 78%, rgb(156, 29, 29) 100%);
 }
 
 /*# sourceMappingURL=styles.css.map */

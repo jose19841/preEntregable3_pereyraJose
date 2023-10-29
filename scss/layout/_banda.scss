@@ -16,6 +16,12 @@ div{
     
     p{
       color: rgb(11, 1, 1);
+      transition: 2s;
+      &:hover{
+        font-size: 16px;
+        color:white;
+        
+      }
     }
 }
 
@@ -25,10 +31,17 @@ div{
     flex-wrap: wrap;
     justify-content:center;
     img{
-   
+        
         width: 350px;
         height: 350px;
         margin: 20px;
+        transition: 3s;
+        &:hover{
+            border-radius: 20%;
+            -webkit-box-shadow: 4px 4px 4px 5px #81f56f94;
+            @extend .galeria_imagenes01;
+
+        }
     
         
     }
@@ -41,6 +54,11 @@ p{
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
+    transition: 2s;
+    &:hover{
+        color:$color-yellow;
+
+    }
 }
 
     
@@ -49,8 +67,7 @@ p{
         margin-right: 40px;
     }
 .galeria_imagenes02{
-    width: 350px;
-    margin-right: 40px;
+   @extend .galeria_imagenes01;
     
 }
 .galeria_imagenes03{

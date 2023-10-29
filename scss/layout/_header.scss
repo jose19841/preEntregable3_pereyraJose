@@ -6,7 +6,7 @@
 }
 .header{
     width: 100%;
-    height: 120px;   
+    height: 105px;   
     float: right;
     box-shadow: 0 0 10px 1px  rgb(240, 235, 235);
     border-bottom: 4px solid grey;
@@ -15,9 +15,9 @@
     .header__logo {
         border-radius: 50%;
         height: 100px;
-        width: 100px;
-        margin: 10px;
+        width: 100px;      
         float: left;
+        
         
       }
     ul {
@@ -32,12 +32,14 @@
 }
 a {
     text-decoration: none;
-    color: grey;
+    color: rgb(244, 239, 239);
     font-size: 1.2em;
     font-weight: bold;
     font-family: $font-family;
+    transition: 2s;
     &:hover{
         color: $color-yellow;
+        font-size: 15px;
     }
   }
 }

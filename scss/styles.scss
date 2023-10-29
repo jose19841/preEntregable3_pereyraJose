@@ -31,8 +31,10 @@
 
 @import 'utilities/variables';
 
-//importamos mixins//
-@import 'utilities/mixin';
 
-//importamos media-Querys
+
+//importamos media-Querys//
 @import 'base/media-querys';
+
+//importamos gradientes//
+@import 'layout/gradientes';

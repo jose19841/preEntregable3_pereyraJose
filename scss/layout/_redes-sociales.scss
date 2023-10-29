@@ -15,9 +15,11 @@
     a{
         text-decoration: none;
     color: $color-yellow;
+    transition: 2s;
     &:hover{
         transform: scale(1.2);
         color: rgb(237, 231, 231);
+        font-size: 10px;
     }
     }
     img{

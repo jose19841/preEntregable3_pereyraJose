@@ -5,8 +5,17 @@
     align-items: center;
     img{
         width: 800px;
+        border-radius: 2%;
+        transition: 1s;
+        &:hover{
+            width: 600px;
+            height: 600px;
+            
+        }
     }
     p{
         text-align: justify;
+        font-weight: 50px;
+        color:#09090a
     }
 }
