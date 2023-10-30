@@ -1,14 +1,16 @@
 @import '../utilities/variables';
 
-.caja{background-color: #000000;
-    padding-top: 100px;
-    display:flex;
-    flex-direction: column;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
-    text-align: justify;
-.caja_titulo{
+.caja {
+  background-color: #000000;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+
+  .caja_titulo {
     background-image: url(/asset/image\ _nir.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,16 +20,16 @@
     color: $color-yellow;
     font-size: 50px;
     margin-top: 5px;
-   
+
   }
- 
-  div{
+
+  div {
     padding: 5px;
   }
-  b{
+
+  b {
     padding-right: 350px;
     color: $color-yellow;
-  
+
   }
-  }
-  
+}

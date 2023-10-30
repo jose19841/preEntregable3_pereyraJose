@@ -1,22 +1,25 @@
 //galeria de imagenes correspondiente a la pagina de fotos//
 
-#galeria{
-    max-width: 100%;
-    background-color: orange;
-      .col-lg-4{
+#galeria {
+  max-width: 100%;
+  background-color: orange;
+
+  .col-lg-4 {
     margin: 0;
     padding: 25px;
     max-width: 100%;
-    img{
-        width: 100%;
-    height: 300px;
-    width: 300px;
-    margin-top: 110px;
-    transition: 2s;
-    &:hover{
+
+    img {
+      width: 100%;
+      height: 300px;
+      width: 300px;
+      margin-top: 110px;
+      transition: 2s;
+
+      &:hover {
         border-radius: 100%;
         -webkit-box-shadow: 4px 4px 4px 5px #ecefec94;
+      }
     }
-    }
-}
   }
+}

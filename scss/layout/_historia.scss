@@ -1,21 +1,24 @@
-.text_1{
+.text_1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    img{
+
+    img {
         width: 800px;
         border-radius: 2%;
         transition: 1s;
-        &:hover{
+
+        &:hover {
             width: 600px;
             height: 600px;
-            
+
         }
     }
-    p{
+
+    p {
         text-align: justify;
         font-weight: 50px;
-        color:#09090a
+        color: #09090a
     }
 }
