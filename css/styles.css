@@ -150,7 +150,7 @@
   text-align: justify;
 }
 .caja .caja_titulo {
-  background-image: url(/asset/image\ _nir.jpg);
+  background-image: url(../asset/image\ _nir.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
